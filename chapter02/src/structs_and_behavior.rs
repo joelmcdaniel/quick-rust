@@ -50,7 +50,7 @@ pub fn do_constrained() -> Result<(), &'static str>{
 
     println!("Now attempting to initialize an invalid Constrained value");
 
-    let mut cons_invalid = new_constrained(100, 0, 0)?;
+    let mut _cons_invalid = new_constrained(100, 0, 0)?;
 
     Ok(())
 }
